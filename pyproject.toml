@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Repositório dedicado para pesquisa e estudo de Python e SQL no contexto de backend e e Ciência de dados."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=2.3.3",
+]
 
 [tool.uv.workspace]
 members = [
