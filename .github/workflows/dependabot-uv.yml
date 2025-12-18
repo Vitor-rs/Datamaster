@@ -1,0 +1,26 @@
+name: Dependabot UV Lock
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Update uv.lock
+        run: uv lock
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update uv.lock"
+          file_pattern: "uv.lock"
