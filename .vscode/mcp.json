@@ -1,0 +1,37 @@
+{
+    "servers": {
+        "deep-directory-tree": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@andredezzy/deep-directory-tree-mcp"
+            ],
+            "type": "stdio"
+        },
+        "mermaid": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-mermaid"
+            ],
+            "type": "stdio"
+        },
+        "reasoner": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@iflow-mcp/mcp-reasoner"
+            ],
+            "type": "stdio"
+        },
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/workspaces/Datamaster"
+            ],
+            "type": "stdio"
+        }
+    }
+}
