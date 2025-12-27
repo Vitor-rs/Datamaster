@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-12-27T04:42:21.487674",
+  "hardware": {
+    "gpu": false,
+    "nome": "",
+    "ambiente": "codespaces"
+  },
+  "stats": {
+    "processados": 3,
+    "sucesso": 3,
+    "falhas": 0
+  },
+  "detalhes": [
+    {
+      "arquivo": "Pedagogico-ExtraActivities-ExtraActivitiesTEENS8_OutputExercises",
+      "sucesso": true,
+      "erro": null,
+      "etapa_falha": null,
+      "tempo": 297.74990820884705,
+      "pasta_saida": "/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-ExtraActivities-ExtraActivitiesTEENS8_OutputExercises",
+      "num_imagens": 149,
+      "tamanho_md": 94881
+    },
+    {
+      "arquivo": "Pedagogico-ExtraActivities-ExtraActivitiesW12",
+      "sucesso": true,
+      "erro": null,
+      "etapa_falha": null,
+      "tempo": 418.616751909256,
+      "pasta_saida": "/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-ExtraActivities-ExtraActivitiesW12",
+      "num_imagens": 45,
+      "tamanho_md": 66513
+    },
+    {
+      "arquivo": "Pedagogico-ExtraActivities-ExtraActivitiesTEENS8",
+      "sucesso": true,
+      "erro": null,
+      "etapa_falha": null,
+      "tempo": 482.9204876422882,
+      "pasta_saida": "/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-ExtraActivities-ExtraActivitiesTEENS8",
+      "num_imagens": 215,
+      "tamanho_md": 113178
+    }
+  ]
+}
