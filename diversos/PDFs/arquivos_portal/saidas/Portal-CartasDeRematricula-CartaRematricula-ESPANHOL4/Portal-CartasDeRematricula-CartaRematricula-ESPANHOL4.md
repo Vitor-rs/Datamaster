@@ -1,0 +1,23 @@
+## carta de rematricula ESPANOL 4 S
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000000_832d2d4267fdc6b10ec7245e1df7f15713f7ffa2f9ea7c23702e440731efb4f9.png)
+
+Pós aula zero
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000001_dc9f6611a37dfdb8d1a9e9ecdc8ef75c36760c9f3dc0a45cf7e1bdd930a35281.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000002_41eda4d4ca1a57999421d2e121aaa92fc284cbefec7f079b48ff06f8c25dafc2.png)
+
+## ONTEÚDO PROGRAMÁTICO DO SEU ESPANHOL 4:
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000003_6e81d52012a5d7ac170fbfccedd1b7a84817d093e9daeca3ab56540542fe7ac0.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000004_629c35412a9ce00eb82b66dfe14ae165f9f7c5b2229b9fe31b3dfee426088f5e.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000005_57f8f77ec2dceb7cb3a27601c324d1ca45eafa43cc7a8e58dfd1f31c2363a3e5.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000006_fa8396de7fe580f93ddfba50886bd9ab908273437f5c38c5668b768353099c7d.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4/Portal-CartasDeRematricula-CartaRematricula-ESPANHOL4_artifacts/image_000007_ece392fd357983325011496fbbcb2e2c6fb938282d25c51c25920b3a2440b2d5.png)
+
+<!-- CONVERSAO_COMPLETA -->

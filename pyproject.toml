@@ -1,0 +1,26 @@
+[project]
+name = "datamaster"
+version = "0.1.0"
+description = "Ambiente de estudos: Backend Python, Data Engineering, Data Science"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=2.0",
+]
+
+[project.optional-dependencies]
+pdf = ["pdf-converter"]
+
+[dependency-groups]
+dev = [
+    "marimo>=0.9",
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+
+[tool.uv.sources]
+pdf-converter = { workspace = true }
+
+[tool.uv.workspace]
+members = ["packages/*"]

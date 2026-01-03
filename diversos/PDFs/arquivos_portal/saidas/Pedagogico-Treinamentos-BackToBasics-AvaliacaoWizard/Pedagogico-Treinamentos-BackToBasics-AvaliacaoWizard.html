@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Wizard - Back to Basics</title>
+    <style>
+        :root {
+            --primary-bg: #fff6e5;
+            --secondary-bg: #e3e7eb;
+            --text-color: #333;
+            --heading-color: #d32f2f;
+            /* Red-ish color often associated with Wizard */
+            --accent-color: #00aeef;
+            /* Blue often associated with Wizard */
+            --border-color: #ccc;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 2px solid var(--secondary-bg);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--heading-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+            accent-color: var(--heading-color);
+            transform: scale(1.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--secondary-bg);
+            color: #333;
+        }
+
+        .exercise-box {
+            border: 1px dashed var(--heading-color);
+            padding: 15px;
+            background-color: #fafafa;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box {
+            background-color: var(--secondary-bg);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .score-box {
+            border: 2px solid var(--heading-color);
+            color: var(--heading-color);
+            font-weight: bold;
+            padding: 10px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .quote {
+            font-style: italic;
+            border-left: 4px solid var(--heading-color);
+            padding-left: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="subtitle">back to basics</div>
+            <h1>Avaliação Wizard</h1>
+        </header>
+
+        <section>
+            <h2>Objetivos do Treinamento</h2>
+            <ul>
+                <li>Revisar avaliação formativa;</li>
+                <li>Destacar a importância do GSE;</li>
+                <li>Promover a prática do processo de avaliação por meio de simulações.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Avaliação Formativa - Verdade ou Mito?</h2>
+            <div class="comparison-grid">
+                <div>
+                    <h3>Afirmações</h3>
+                    <ul>
+                        <li>Os resultados sempre são registrados em conceitos.</li>
+                        <li>É uma forma de envolver os alunos em seu próprio aprendizado.</li>
+                        <li>É subjetiva.</li>
+                        <li>Acontece ao longo do processo de ensino-aprendizagem.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Resultados</h3>
+                    <div class="highlight-box">Verdade</div>
+                    <ul>
+                        <li>Acontece ao longo do processo de ensino-aprendizagem.</li>
+                        <li>É uma forma de envolver os alunos em seu próprio aprendizado.</li>
+                    </ul>
+                    <div class="highlight-box">Mito</div>
+                    <ul>
+                        <li>Os resultados sempre são registrados em conceitos.</li>
+                        <li>É subjetiva.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Definição</h2>
+            <p class="quote">"Um conjunto de atividades que os professores e alunos realizam juntos para obter
+                informações que serão usadas para ajustar o ensino e a aprendizagem" (Wiliam, 2011)</p>
+        </section>
+
+        <section>
+            <h2>Pilares da Avaliação Formativa</h2>
+            <ol>
+                <li>Processo contínuo</li>
+                <li>Feedback</li>
+                <li>Foco no aluno</li>
+                <li>Evidências</li>
+                <li>Colaboração professor e aluno</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Evitando a Subjetividade</h2>
+            <h3>"O Grito" de Edvard Munch</h3>
+            <p>Se precisasse avaliar esta obra de arte de 0 a 100, qual nota você daria e por quê?</p>
+            <p><strong>Critérios de Avaliação (Exemplo):</strong></p>
+            <ol>
+                <li><strong>Impacto emocional:</strong> pode provocar uma forte resposta emocional em algumas pessoas?
+                </li>
+                <li><strong>Reconhecimento:</strong> é uma obra de arte importante ou tem valor cultural e histórico
+                    significativo?</li>
+                <li><strong>Cores e texturas:</strong> as cores e texturas usadas na pintura são interessantes e
+                    contribuem para a qualidade da obra de arte?</li>
+            </ol>
+            <div class="score-box">3/3 = 100%</div>
+        </section>
+
+        <section>
+            <h2>GSE (Global Scale of English)</h2>
+            <p><strong>W4</strong></p>
+            <ul>
+                <li>GSE: 30-42</li>
+                <li>CEFR: A2/A2+</li>
+            </ul>
+            <p><strong>W8</strong></p>
+            <ul>
+                <li>GSE: 56-65</li>
+                <li>CEFR: B1+/B2</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conceitos da Avaliação Wizard</h2>
+            <table>
+                <tr>
+                    <th>Conceito</th>
+                    <th>Critério</th>
+                </tr>
+                <tr>
+                    <td><strong>ÓTIMO</strong></td>
+                    <td>Atingimento mínimo de 90%</td>
+                </tr>
+                <tr>
+                    <td><strong>MUITO BOM</strong></td>
+                    <td>Atingimento mínimo de 75%</td>
+                </tr>
+                <tr>
+                    <td><strong>BOM</strong></td>
+                    <td>Atingimento mínimo de 60%</td>
+                </tr>
+                <tr>
+                    <td><strong>REGULAR</strong></td>
+                    <td>Atingimento abaixo de 60%</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Homework Correction - Lição 19</h2>
+            <h3>Learning Objectives</h3>
+            <ul>
+                <li>Can name a few means of transportation.</li>
+                <li>Can ask someone's address and say theirs.</li>
+                <li>Can name some places in the city.</li>
+                <li>Can say how they and others get to places.</li>
+                <li>Can ask how others get to places.</li>
+                <li>Can say where they go at different periods of the day.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills Check - Listening Comprehension</h2>
+            <div class="exercise-box">
+                <p><strong>c. Do you take...to the park?</strong></p>
+                <div class="checkbox-item"><input type="checkbox" checked> the bus</div>
+                <div class="checkbox-item"><input type="checkbox"> the train</div>
+                <div class="checkbox-item"><input type="checkbox"> the subway</div>
+            </div>
+            <div class="score-box">5/5 = 100% = Ótimo</div>
+        </section>
+
+        <section>
+            <h2>Listen and Choose the Correct Alternative</h2>
+            <div class="exercise-box">
+                <p><strong>a. We go to the gym...</strong></p>
+                <div class="checkbox-item"><input type="checkbox"> in the afternoon.</div>
+                <div class="checkbox-item"><input type="checkbox"> by car.</div>
+                <div class="checkbox-item"><input type="checkbox"> on foot.</div>
+
+                <p><strong>d. Do you want to go... with me?</strong></p>
+                <div class="checkbox-item"><input type="checkbox"> to the park</div>
+                <div class="checkbox-item"><input type="checkbox"> to the movies</div>
+                <div class="checkbox-item"><input type="checkbox"> to the square</div>
+
+                <p><strong>b. How do you go...</strong></p>
+                <div class="checkbox-item"><input type="checkbox"> home?</div>
+                <div class="checkbox-item"><input type="checkbox"> to school?</div>
+                <div class="checkbox-item"><input type="checkbox"> to the gym?</div>
+
+                <p><strong>e. - What's your address?</strong></p>
+                <div class="checkbox-item"><input type="checkbox"> - It's Fairview Avenue.</div>
+                <div class="checkbox-item"><input type="checkbox"> - I live on Green Park Street.</div>
+                <div class="checkbox-item"><input type="checkbox"> - I live on Abbey Road.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Exercise Input Correction</h2>
+            <div class="exercise-box">
+                <p><strong>Examples of Student Errors:</strong></p>
+                <ul>
+                    <li>"I go to the gym <em>at</em> the morning." (Incorrect preposition)</li>
+                    <li>"She <em>don't</em> take the train." (Grammar error)</li>
+                </ul>
+            </div>
+            <div class="score-box">2/5 = 40% = Regular</div>
+        </section>
+
+        <section>
+            <h2>Complete the Sentences</h2>
+            <div class="exercise-box">
+                <p>a. - What's your address? - I live _________________</p>
+                <p>b. We take _________________ in the _________________</p>
+                <p>c. I go to _________________ by _________________</p>
+                <p>d. You have _________________ your books with you.</p>
+                <p>e. I take the bus to _________________</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recomendações (Feedback)</h2>
+            <ul>
+                <li><strong>1 - Rever lição 19 com foco em:</strong>
+                    <ul>
+                        <li>a) To go to school X to go to the park X to go home</li>
+                        <li>b) In the morning X in the afternoon X at night</li>
+                        <li>c) On + street</li>
+                    </ul>
+                </li>
+                <li><strong>2 - Refazer homework da lição 19 até data x.</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>International Assessments - Aliados da Avaliação Wizard</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nível</th>
+                        <th>Idade</th>
+                        <th>Modalidade</th>
+                        <th>Certificado</th>
+                        <th>Correção / Resultado</th>
+                        <th>Habilidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>T8 e W8</td>
+                        <td>+15</td>
+                        <td>Presencial Digital</td>
+                        <td>Imediato</td>
+                        <td>F.A.L.E.</td>
+                        <td>VERSANT</td>
+                    </tr>
+                    <tr>
+                        <td>W8</td>
+                        <td>+15</td>
+                        <td>Presencial Impresso</td>
+                        <td>6 semanas</td>
+                        <td>F.A.L.E.</td>
+                        <td>PEIC</td>
+                    </tr>
+                    <tr>
+                        <td>Ws</td>
+                        <td>+14</td>
+                        <td>Presencial Digital</td>
+                        <td>Imediato</td>
+                        <td>F.A.L.E.</td>
+                        <td>BENCHMARK</td>
+                    </tr>
+                    <tr>
+                        <td>Kids, Teens, WIP</td>
+                        <td>+6</td>
+                        <td>Presencial Digital</td>
+                        <td>Imediato</td>
+                        <td>F.A.L.E.</td>
+                        <td>BENCHMARK YOUNG LEARNERS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Como lidar com diferenças?</h2>
+            <ul>
+                <li>Observação de aula;</li>
+                <li>Comparação com os assessments;</li>
+                <li>WTDCs com simulações;</li>
+                <li>Alinhamentos com responsáveis e alunos.</li>
+            </ul>
+        </section>
+
+        <footer style="text-align: center; margin-top: 50px; font-weight: bold; color: var(--heading-color);">
+            THANK YOU!
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

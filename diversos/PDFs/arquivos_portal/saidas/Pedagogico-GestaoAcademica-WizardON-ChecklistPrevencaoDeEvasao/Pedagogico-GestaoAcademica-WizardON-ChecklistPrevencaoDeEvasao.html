@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Prevenção De Evasão</title>
+    <style>
+        :root {
+            --primary: #496a86;
+            --bg-color: #f2f4f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 210mm;
+            /* A4 width */
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.2em;
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2.section-title {
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 15px;
+            font-size: 1.1em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .intro-text p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #555;
+        }
+
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 12px 15px;
+            background-color: #fbfbfb;
+            border-bottom: 1px solid #e0e0e0;
+            transition: background 0.2s;
+        }
+
+        .checklist-item:hover {
+            background-color: #f0f7fc;
+        }
+
+        .checklist-item:last-child {
+            border-bottom: none;
+        }
+
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--primary);
+            border-radius: 4px;
+            margin-right: 15px;
+            flex-shrink: 0;
+            margin-top: 3px;
+            /* visual alignment with text */
+            position: relative;
+        }
+
+        .checkbox:after {
+            content: '';
+            /* Placeholder for checkmark logic if needed */
+        }
+
+        .item-text {
+            flex: 1;
+            font-size: 0.95em;
+        }
+
+        strong {
+            color: var(--primary);
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                max-width: 100%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Consultoria de Evasão</h1>
+
+        <div class="intro-text">
+            <p>Sabe-se dos desafios e a importância de manter-se um aluno engajado durante o tempo em que está em sua
+                escola. Por isso, cada ponto de contato entre escola e aluno é fundamental para manter expectativas
+                altas e garantir a melhor entrega pedagógica e operacional para o aluno. A decisão de continuar na
+                escola e renovar seu contrato é uma construção feita ao longo do tempo por cada detalhe que compõe a
+                experiência do aluno na Wizard by Pearson.</p>
+
+            <p>A evasão e seu controle devem ser ponto focal para as escolas que querem garantir sua saúde financeira,
+                crescimento, ocupação de sala de aula, otimização de seus recursos e, principalmente, desenvolvimento de
+                seus alunos. Os alunos aprendem por cadência, frequência e ritmo.</p>
+
+            <p>Frisamos aqui o cuidado que deve se ter com alunos em experiências online. A frequência de contato,
+                atendimento e ativação para alunos online deve ser maior.</p>
+
+            <p>Recomenda-se seguir o checklist abaixo para atuar preventivamente em relação a evasão de seus alunos.</p>
+        </div>
+
+        <h2 class="section-title">[pré-matrícula] alinhamentos pedagógico-comercial-administrativo</h2>
+        <div class="intro-text">
+            <p>A prospecção e apresentação são os primeiros momentos de contato do futuro aluno com a escola. É
+                importante existir alinhamentos entre os setores comercial e pedagógico para garantir que seja ofertado
+                ao aluno experiências, serviços e promessas que condizem com as entregas que serão feitas ao longo de
+                seu curso.</p>
+        </div>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">O setor comercial sabe as características e diferenças das experiências
+                    Interactive e Connections.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">As turmas que recebem matrículas foram compartilhadas e divulgadas com os setores
+                    Comercial e Administrativo.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Os horários livres para realização de matrículas foram previamente desdobrados
+                    com os setores Comercial e Administrativo.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Todos estão cientes da importância da Aula Zero para início das aulas, bem como a
+                    não realização desta aula pode impactar drasticamente a aprendizagem do aluno.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Os setores Comercial, Pedagógico e Administrativo sabem da importância do
+                    engajamento do aluno e entendem que o engajamento do aluno não necessariamente melhora com a troca
+                    de experiências ao longo do seu curso. <br><small><i>Exemplo: aluno com frequência comprometida no
+                            Interactive não necessariamente terá o engajamento melhorado ao ser transferido para o
+                            Wizard On. Por isso, a escola deve ser muito atenta e cuidadosa ao propor mudança de
+                            experiência durante o curso.</i></small></div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">[pós-venda] após a matrícula</h2>
+        <div class="intro-text">
+            <p>O momento do onboarding é onde aluno tem uma série de dúvidas, tudo é novo para ele. Esse momento - entre
+                a efetivação da matrícula e o início das aulas - deve ser transparente, claro, fluído e leve.</p>
+        </div>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu material didático (ou foi orientado claramente sobre a entrega do
+                    MD).</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu instruções claras sobre início das aulas, formato, professor, turma
+                    e sala.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu 'Manual do Aluno' (ou outro documento) com informações essenciais
+                    sobre o funcionamento da escola e das aulas e há um controle de recebimento deste documento (este
+                    documento pode ser entregue na Aula Zero).</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno está alinhado sobre processos da escola, pagamentos, contratos, faltas e
+                    reposições.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">O planejamento pedagógico do aluno foi criado.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Alunos sabe a quem e como recorrer, caso precise de ajuda.</div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">[Aula Zero] para início das aulas</h2>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aula Zero realizada.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu 'Manual do Aluno' (ou documento semelhante) com informações sobre o
+                    funcionamento da escola e das aulas e há um controle de recebimento deste documento.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Expectativas de aprendizado e entrega alinhadas.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu Planejamento Pedagógico e está ciente dos dias de suas aulas e
+                    quando se encerrarão.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Papéis e obrigações da escola e do aluno bem definidos.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Instruções claras sobre funcionamento de faltas, reposições e Study Hall.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu acesso e instruções claras sobre WizMe.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Aluno recebeu acesso e instruções claras sobre WizTab.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Se online, aluno recebeu acesso e instruções claras sobre uso e acessos das
+                    plataformas online (Plataformas de aula e Catch Up).</div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">[aula a aula] manutenção das expectativas e compromisso com o aluno</h2>
+        <div class="intro-text">
+            <p>Agora que o aluno já realizou sua matrícula, passou pelo onboarding e iniciou suas aulas, precisa-se
+                estar atento a detalhes da vida do aluno que garantam seu compromisso com os estudos e evitem a evasão.
+                Alguns dados podem indicar uma evasão, tais como faltas, atrasos, não entrega de atividades e
+                inadimplência. No entanto, a escola e o professor podem adotar algumas práticas que favorecem a retenção
+                deste aluno.</p>
+        </div>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Lembrete de aula feito antes de todas as aulas (via Whatsapp, email ou SMS).
+                </div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Há um controle sobre faltas com colaboradores responsáveis por fazer contato com
+                    os alunos e manter registro sobre o contato com os alunos faltosos em documento único e de fácil
+                    acesso.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Há um script (o que falar), um roteiro (como falar) e uma regra (quando falar)
+                    definidos sobre a abordagem e o acionamento a alunos faltosos.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Se falta, aluno é acionado para entender os motivos de sua ausência (demonstração
+                    genuína de preocupação) e solicitado que agende a reposição de aula.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">O processo de agendamento e execução de reposição de aula foi facilitado.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Homework é devolvido pontualmente ao aluno.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Se não entrega (ou atrasa) atividades, aluno é acionado sobre a importância de
+                    suas atividades escritas e lhe é oferecido auxílio para realizar estas atividades.</div>
+            </li>
+        </ul>
+        <div class="intro-text">
+            <p><strong>Aluno é protagonista de seu desenvolvimento, professor é protagonista do feedback.</strong></p>
+        </div>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Microachievement realizado e comemorado.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Awareness provocado: aluno tem 'sentimento' de que está aprendendo.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Professor chamou a atenção do aluno para sua evolução e sua responsabilidade
+                    sobre seu desenvolvimento.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Feedback humanizado/meaningful (aluno deve receber o feedback de um agente que
+                    possua relacionamento com o aluno).</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Se é Interactive, peer work realizado com direcionamento e propósito.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Entrevista de Percepção de Aprendizagem realizada.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Recomenda-se a preparação da entrevista de percepção de aprendizagem a partir dos
+                    Learning Objectives presentes na spread page de abertura de um bloco.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">A percepção de aprendizagem durante a entrevista foi provocada.</div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">[PDI] transparência, clareza e direcionamento sobre desenvolvimento</h2>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Plano de Desenvolvimento Individual foi feito.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Study Plan foi revisto e atualizado conforme necessidade do aluno.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Se encaminhado para Study Hall, aluno e professor/monitor sabem o que têm que
+                    fazer e seus objetivos.</div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">[Assessments] comprovação dos resultados</h2>
+        <div class="intro-text">
+            <p>Falamos constantemente até aqui sobre a importância da percepção de aprendizagem e manutenção do
+                engajamento do aluno. Ter ciência sobre seu desenvolvimento e saber que está aprendendo são pontos que
+                facilitam a renovação contratual e a manutenção dos alunos. Recomenda-se o uso de assessments como
+                ferramenta de comprovação de resultados e direcionamento aos alunos.</p>
+        </div>
+        <ul class="checklist">
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">As licenças devidas foram solicitadas.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">A aplicação do teste foi organizada, equipamentos checados, horários reservados,
+                    colaboradores e alunos instruídos.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Alunos realizaram o teste.</div>
+            </li>
+            <li class="checklist-item">
+                <div class="checkbox"></div>
+                <div class="item-text">Feedback sobre o resultado do teste foi feito e aluno foi instruído sobre os
+                    pontos que precisa desenvolver em sua jornada.</div>
+            </li>
+        </ul>
+
+        <hr style="border: 0; border-top: 1px solid #ccc; margin: 30px 0;">
+        <div class="intro-text">
+            <p>Concluindo, recomenda-se fortemente o cumprimento dos itens dessa lista como boas práticas para agir
+                preventivamente em relação a evasão de alunos. A percepção de aprendizagem e o engajamento são
+                determinantes para a manutenção do aluno. Também frisamos que todos esses cuidados/práticas devem ser
+                redobrados quando falamos de alunos online.</p>
+        </div>
+    </div>
+</body>
+
+</html>

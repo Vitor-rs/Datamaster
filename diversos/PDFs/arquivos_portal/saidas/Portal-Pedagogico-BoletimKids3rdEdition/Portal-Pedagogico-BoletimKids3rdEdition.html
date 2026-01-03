@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card Kids 3rd Edition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .page {
+            width: 297mm;
+            /* Landscape A4 approx */
+            height: 210mm;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10mm;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Brand Colors */
+        :root {
+            --wiz-blue: #00aeef;
+            --wiz-red: #ed1c24;
+            --wiz-orange: #f7931e;
+        }
+
+        /* Top Header Area (Logos & Title) */
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            height: 80px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        .wizkids-logo {
+            font-size: 40px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .text-blue {
+            color: var(--wiz-blue);
+        }
+
+        .text-red {
+            color: var(--wiz-red);
+        }
+
+        .title-bar {
+            background-color: var(--wiz-blue);
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            padding: 5px 0;
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        .wizard-logo-small {
+            position: absolute;
+            right: 10px;
+            top: 2px;
+            font-size: 12px;
+            color: #000;
+        }
+
+        /* Form Grid */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 80px 1fr 140px 140px;
+            /* Labels and inputs */
+            gap: 2px;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .label-box {
+            color: white;
+            font-weight: bold;
+            padding: 3px 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .bg-red {
+            background-color: var(--wiz-red);
+        }
+
+        .bg-orange {
+            background-color: var(--wiz-orange);
+        }
+
+        .input-box {
+            border: 1px solid var(--wiz-blue);
+            background: white;
+            padding: 3px;
+        }
+
+        /* Specific Form Layout based on screenshot */
+        .row-1 {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 2px;
+        }
+
+        .row-2 {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 2px;
+        }
+
+        .row-3 {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+
+        .field-group {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .field-label {
+            width: 60px;
+            color: white;
+            padding: 2px 5px;
+            font-weight: bold;
+            font-size: 11px;
+            display: flex;
+            align-items: center;
+        }
+
+        .field-input {
+            flex-grow: 1;
+            border: 1px solid var(--wiz-blue);
+            height: 18px;
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+            font-size: 11px;
+        }
+
+        /* Table */
+        .grades-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        .grades-table th {
+            background-color: var(--wiz-blue);
+            color: white;
+            padding: 2px;
+            border: 1px solid white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .grades-table td {
+            border: 2px solid var(--wiz-blue);
+            height: 20px;
+            text-align: center;
+        }
+
+        .col-block {
+            width: 30px;
+            background-color: var(--wiz-blue);
+            color: white;
+            font-weight: bold;
+            border: 1px solid white !important;
+        }
+
+        /* Comments Section */
+        .comments-section {
+            display: flex;
+            margin-top: 2px;
+            border-top: 2px solid var(--wiz-blue);
+        }
+
+        .comments-label {
+            background-color: var(--wiz-blue);
+            color: white;
+            width: 30px;
+            text-align: center;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight: bold;
+            font-size: 12px;
+            padding: 10px 0;
+            border: 1px solid white;
+        }
+
+        .comments-lines {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .line {
+            border-bottom: 1px solid var(--wiz-blue);
+            height: 20px;
+            width: 100%;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--wiz-orange);
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: auto;
+        }
+
+        .footer span {
+            margin-right: 15px;
+        }
+
+        @media print {
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+                display: block;
+            }
+
+            .page {
+                width: 100%;
+                height: 100%;
+                box-shadow: none;
+                padding: 5mm;
+            }
+
+            /* Force background colors print */
+            * {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- Decoration / Logo Area -->
+        <div class="top-header">
+            <div style="font-size: 10px; color: #ccc;">[Illustration Placeholder: Characters]</div>
+            <div class="wizkids-logo">
+                <span class="text-blue">WIZ</span><span class="text-red">KIDS</span>
+            </div>
+        </div>
+
+        <!-- Blue Title Bar -->
+        <div class="title-bar">
+            Report Card Kids 3rd edition
+            <div class="wizard-logo-small">WIZARD by Pearson</div>
+        </div>
+
+        <!-- Form Fields -->
+        <!-- Row 1: Name (Red) | Birthday (Red) -->
+        <div class="row-1">
+            <div class="field-group">
+                <div class="field-label bg-red">Name:</div>
+                <div class="field-input"></div>
+            </div>
+            <div class="field-group" style="flex-grow: 0; width: 200px;">
+                <div class="field-label bg-red" style="width: 80px;">Birthday:</div>
+                <div class="field-input" style="text-align: center;">/ /</div>
+            </div>
+        </div>
+
+        <!-- Row 2: Book (Red) | Connections/Interactive (Orange) -->
+        <div class="row-2">
+            <div class="field-group">
+                <div class="field-label bg-red">Book:</div>
+                <div class="field-input"></div>
+            </div>
+            <div class="field-group" style="flex-grow: 0; width: 300px;">
+                <div class="field-label bg-orange" style="width: 290px; justify-content: space-around;">
+                    <span>Connections ( )</span> <span>Interactive ( )</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3: Days (Red) - [Checkboxes] | Time (Red) -->
+        <div class="row-3">
+            <div class="field-group">
+                <div class="field-label bg-red">Days:</div>
+                <div class="field-input" style="justify-content: space-around; font-size: 10px;">
+                    <span>Monday ( )</span>
+                    <span>Tuesday ( )</span>
+                    <span>Wednesday ( )</span>
+                    <span>Thursday ( )</span>
+                    <span>Friday ( )</span>
+                    <span>Saturday ( )</span>
+                </div>
+            </div>
+            <div class="field-group" style="flex-grow: 0; width: 150px;">
+                <div class="field-label bg-red" style="width: 50px;">Time:</div>
+                <div class="field-input"></div>
+            </div>
+        </div>
+
+        <!-- Main Table -->
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th style="width: 40px;">Blocks</th>
+                    <th>Speaking</th>
+                    <th>Listening</th>
+                    <th>Reading</th>
+                    <th>Writing</th>
+                    <th>Review</th>
+                    <th>Wizkids Day</th>
+                    <th>Absences</th>
+                    <th>Repos.</th>
+                    <th>Delayed Homework</th>
+                    <th>Teacher</th>
+                    <th>Coord</th>
+                    <th>Resp.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 10 Rows -->
+                <tr>
+                    <td class="col-block">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">6</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">7</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">8</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="col-block">10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Comments Section -->
+        <div class="comments-section">
+            <div class="comments-label">COMMENTS</div>
+            <div class="comments-lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <!-- Illustration Placeholder Bottom Right -->
+        <div style="position: absolute; bottom: 40px; right: 10px; font-size: 10px; color: #ccc;">[Illustration
+            Placeholder: Boy & Dog]</div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>
+                <span>Subtitles:</span>
+                <span>Rep.: Replacement</span>
+            </div>
+            <div>
+                <span>Coord.: Coordinator</span>
+                <span>Resp.: Responsible</span>
+                <span>R: Regular</span>
+            </div>
+            <div>
+                <span>B: Bom</span>
+                <span>MB: Muito Bom</span>
+                <span>O: Ótimo</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

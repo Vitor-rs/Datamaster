@@ -1,0 +1,110 @@
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000000_8d336a093e037fe2af674b526035f346282b091e4ebe7c0e910d6cf6a21370c4.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000001_4b6cfd56af1d86b7891a1750ccd832779d48cc2719c6fa2c4c61503e9bb23f7f.png)
+
+- Episódio 1 -Rematrícula Orgânica -HOJE!
+- Episódio 2 - Clusterização pedagógica
+
+Episódio 3 Criação de metas &amp; 'ajustes de velas'
+
+Episódio 4 -Reunião de rematrícula
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000002_71da8c97de6cf1090b5de74c44830a0dfbfcab2dc475db8cadcff043d04aeffb.png)
+
+## Rematrícula orgânica
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000003_e77570fe8c37ecdc3ce2eb1af0ec96171d1c60053a03d7e40f9cd38dad3c492f.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000004_4c10d857dc8401ef697085a330b186eb0e07fc7d5913f627a8d8106d5cbca9ae.png)
+
+## A Fórmula Mágica
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000005_6b73b540ed41473274ac6ba2f7b1d9c0f80c7cffdd51c995b4e0f8986df3829f.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000006_3eed8786a6c34c24b2dccc9f5e0c357d35bfc0c147aeb8d35b88b710a03269fc.png)
+
+WIZARD
+
+## REMA É PROCESSO!
+
+PARA OFERECER UMA JORNADA DE SUCESSO AO NOSSO ALUNO E PRECISO QUEESTEJAMOSPREPARADOS!
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000007_e4548b39e3bb1b4156bd871bf4e75c3d7f90972382358965d59900a14039438c.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000008_0a900f50aae0cba60fb739425623405cb2536b5a911d9f573bd6d1e80d6a1224.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000009_5e76ea4fc4a12b8a892fa0e3b356594374afa4c9381454d4ee4d6004ac7a90ec.png)
+
+## Rematrícula Orgânica
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000010_8afeef97d353b55787e141ee40244761dcdb58f02b3dfdbf3a5f56bd2a5eb1b5.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000011_783400036675835e2c5e0f5b419d1bed213704fd93c9fd720bb3a5486fe76ff3.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000012_ac52ba5d0cbe28725bc59eb112855f2d9c58cd446c2af8d3975396fb4cade4ee.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000013_4b6cfd56af1d86b7891a1750ccd832779d48cc2719c6fa2c4c61503e9bb23f7f.png)
+
+WIZARD
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000014_781764d35f48e1cf4a513971095b7f661bf6f6aaeb292ea013902dad63655bcf.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000015_b366ee5f88ca44f2bf8dc534d8c5d6a95f8023fbc4f73359065df74c95789165.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000016_a5877316adfdbdbdc1e28af8a5c1b13d81d811c0dc900292a8bebb98695884ea.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000017_4b6cfd56af1d86b7891a1750ccd832779d48cc2719c6fa2c4c61503e9bb23f7f.png)
+
+RIO
+
+## Por que 9o%o das pessoas desistem de aprender ingles
+
+O especialista em Programagao Neurolinguistica e membro da International Society of NeuroSemantics (IsNS), Claudio a sieuopowa saotey e epeell eisa ewoipi onou wn lapuade wa apepinoyp e 'auawea anb erndxa 'sosupwog psicologicos. "Medo de errar, de parecer ridiculo, de se sentir burro, tudo isso dificulta a aprendizagem nao so de um a eueiew epeujwuaap anb elpane eossad e opueno., 'soujwog awnsau 'apepou lanbjenb ap sew ewop! onou dificil, o cerebro envia uma mensagem para o sistema nervoso, e os neuronios entendem que aquilo é dificil, doloroso, ap apeppedeo ssou agos sauetw seuao e enal ouawesuad ap od assi leuat spew anb wau ela a janyssode! aprender", explica.
+
+WIZARD
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000018_9fdebdc385b86f17268141a6584deedc441341365d7851aecf0478c52a36e33a.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000019_6a2d5e931cfe34a8433546f3736e87dea28d9806b9b96dfbb56d15480212a2f9.png)
+
+## Fórmula da Rema Orgânica
+
+- ❑ Entender que a REMA é PROCESSO, e não ATO;
+- ❑ Compreender que ela está em todos os detalhes;
+- ❑ Ver e rever cada um dos passos da jornada da rema entendendo que cada uma delas tem igual importância ;
+- ❑ Clareza de processos e alinhamento;
+- ❑ Investir em uma equipe de alta performance.
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000020_0d0b9b1bb77e3d92a58960fbcdd9d8c14f967a7f2fbe61a73169bbf6cae3aa4a.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000021_4b6cfd56af1d86b7891a1750ccd832779d48cc2719c6fa2c4c61503e9bb23f7f.png)
+
+WIZARD
+
+@ped.danipecorari
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000022_4bd48941bd29a9db5d03794cc12616658b21599473efcebecd7b43e990fe4789.png)
+
+@vivipedagogico
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000023_0e860f2023720953df9738326a0614fbd745291c49ae9e27df78c8b22a68393c.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000024_e9b2dea179bbaf9ff046d93b4cc746ad7218b56e8938e913789988746220e667.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000025_caeecabfae0deecc5b5c9acc693edc2e96eed9504ea7bf902f1649d776e85a74.png)
+
+WIZARD
+
+## PESQUISA DE SATISFAÇÃO
+
+## Episódio 1
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000026_942d66f0a03c178fd983bfe3b2f0e0f41bea2ccb0fcb804021c2576615a484e9.png)
+
+https://researchpearson.typeform.com/pesqrematona
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000027_ad793a3c779cdaacb889691009000b462414556c4c6645aa5856788fe9453856.png)
+
+![Image](/workspaces/Datamaster/diversos/PDFs/arquivos_portal/saidas/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica/Pedagogico-Treinamentos-Rematona-Dia1_Rematona_OQueEEComoAtingirARematriculaOrganica_artifacts/image_000028_d449e09fbf5761411f00d6babb51e8bb669e3694501cf3c167bffd72c173ff20.png)
+
+<!-- CONVERSAO_COMPLETA -->

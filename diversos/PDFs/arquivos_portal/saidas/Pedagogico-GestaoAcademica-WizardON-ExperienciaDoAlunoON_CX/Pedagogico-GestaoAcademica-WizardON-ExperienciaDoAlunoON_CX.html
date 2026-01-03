@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência do Aluno ON</title>
+    <style>
+        :root {
+            --primary-color: #021167;
+            --background-color: #fdf5f2;
+            --text-color: #333;
+            --white: #ffffff;
+            --border-radius: 8px;
+            --spacing-unit: 20px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border-top: 3px solid var(--primary-color);
+        }
+
+        .alert-box {
+            background-color: #eef2ff;
+            border: 1px solid #d0d7ff;
+            padding: 15px;
+            border-radius: var(--border-radius);
+            margin: 15px 0;
+        }
+
+        .alert-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--white);
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .highlight-text {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Experiência do Aluno ON</h1>
+            <p class="subtitle">Como transformar a jornada online em uma experiência acolhedora e eficiente.</p>
+        </header>
+
+        <main>
+            <!-- Section 1: Persona -->
+            <section>
+                <h2>1. Quem é a Nossa Persona</h2>
+                <p><em>(Aluno Wizard ON - Aulas Online ao Vivo)</em></p>
+
+                <div class="card">
+                    <h3>Perfil Geral</h3>
+                    <p>A persona da educação online na Wizard ON é ampla e reflete um público diverso. Em geral, são
+                        pessoas que:</p>
+                    <ul>
+                        <li>São adultas, com mais de 18 anos, em diferentes fases da vida profissional;</li>
+                        <li>Têm uma rotina corrida, com pouco tempo disponível e múltiplas responsabilidades;</li>
+                        <li>Trabalham, estudam ou empreendem - muitas vezes conciliando mais de uma dessas atividades;
+                        </li>
+                        <li>Optam pela modalidade online por questões de flexibilidade, praticidade e economia de tempo;
+                        </li>
+                        <li>São conectadas ao mundo digital, mas não necessariamente têm autonomia para estudar
+                            sozinhas;</li>
+                        <li>Valorizam experiências personalizadas, acolhedoras e humanas, mesmo no virtual;</li>
+                        <li>Precisam de orientação clara e suporte constante para manter o engajamento;</li>
+                        <li>Sentem-se, com frequência, esquecidas ou desconectadas da instituição;</li>
+                        <li>Apresentam risco elevado de evasão caso não sejam acompanhadas de perto.</li>
+                    </ul>
+                </div>
+
+                <div class="grid-2" style="margin-top: 20px;">
+                    <div class="card">
+                        <h3>Necessidades</h3>
+                        <ul>
+                            <li>Aulas objetivas, que comecem e terminem no horário certo</li>
+                            <li>Lembretes e orientações curtas e claras (sem textão!)</li>
+                            <li>Facilidade para acessar tudo: link da plataforma, da aula, material, nota, presença</li>
+                            <li>Sentir que está evoluindo, sem ter que ficar perguntando ou cobrando</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Comportamentos</h3>
+                        <ul>
+                            <li>Sempre com pressa e assistindo aula de qualquer lugar (carro, trabalho, intervalo)</li>
+                            <li>Participa pouco das trilhas e atividades complementares</li>
+                            <li>Muitas vezes ignora ou demora a responder a coordenação</li>
+                            <li>Reclama quando o processo exige esforço demais (muitos cliques, muitas etapas)</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Dores</h3>
+                        <ul>
+                            <li>Falta de tempo para organizar a rotina de estudos</li>
+                            <li>Se sente perdida se não tiver um guia muito claro (não pergunta - só desiste)</li>
+                            <li>Frustração com instabilidades ou comunicação desencontrada</li>
+                            <li>Quer evoluir, mas sente que não consegue acompanhar com consistência</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Expectativas</h3>
+                        <ul>
+                            <li>Tudo simples, direto e fácil de acessar</li>
+                            <li>Ser lembrada e acolhida: alguém que acompanhe proativamente</li>
+                            <li>Comunicação objetiva, prática e com linguagem amigável</li>
+                            <li>Retorno rápido e resolutivo - de preferência via WhatsApp</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Jornada Atual -->
+            <section>
+                <h2>2. Jornada Atual (AS-IS)</h2>
+                <p>Como o aluno vive a experiência hoje. Essa é a jornada como ela costuma acontecer na prática, com os
+                    pontos de contato, dores mais frequentes e ações recomendadas.</p>
+
+                <h3>Fase 1 - Consideração / Matrícula</h3>
+                <ul>
+                    <li>Vê anúncio nas redes sociais ou recebe indicação</li>
+                    <li>Entra em contato via WhatsApp ou formulário</li>
+                    <li>É atendida pela equipe comercial (I9) ou a equipe comercial da unidade e faz a matrícula</li>
+                </ul>
+
+                <div class="alert-box">
+                    <span class="alert-title">Ponto de Atenção:</span>
+                    Não recebe imediatamente uma explicação clara do que vai acontecer depois. Isso pode gerar
+                    ansiedade.
+                </div>
+
+                <div class="card">
+                    <span class="highlight-text">Direcionamento Sugerido:</span>
+                    <ul>
+                        <li>Criar um kit de boas-vindas com links, plataformas, contatos úteis e videos</li>
+                        <li>Garantir que a pessoa responsável entre em contato em até 24h após a matrícula</li>
+                        <li>Validar se a explicação sobre o funcionamento do Wizard ON está clara com a equipe comercial
+                        </li>
+                    </ul>
+                </div>
+
+                <h3>Fase 2 - Onboarding</h3>
+                <ul>
+                    <li>Recebe e-mail de boas-vindas e vídeo de orientação (sugerido)</li>
+                    <li>Entra na primeira aula ao vivo, mas ainda se sente um pouco perdida</li>
+                    <li>Tem o primeiro contato com a coordenação pedagógica, mas nem sempre interage</li>
+                </ul>
+
+                <div class="alert-box">
+                    <span class="alert-title">Ponto de Atenção:</span>
+                    Não entende bem quem é a coordenação, quem é o professor e o que cada um faz. Comunicação muitas
+                    vezes genérica ou longa demais.
+                </div>
+
+                <div class="card">
+                    <span class="highlight-text">Direcionamento Sugerido:</span>
+                    <ul>
+                        <li>Enviar áudio curto ou vídeo informal de apresentação da coordenação pedagógica com um school
+                            tour.</li>
+                        <li>Explicar a diferença entre os papéis de forma prática e ilustrativa</li>
+                        <li>Usar checklists com o aluno nos primeiros 7 dias para garantir entendimento (pós-venda)</li>
+                    </ul>
+                </div>
+
+                <h3>Fase 3 - Desenvolvimento</h3>
+                <ul>
+                    <li>Começa a ter aula com frequência (ou intermitência, se a rotina for intensa)</li>
+                    <li>A coordenação pedagógica envia lembretes e estímulos, mas as respostas diminuem com o tempo</li>
+                    <li>Pouco engajamento com as tarefas e as aulas extras oferecidas</li>
+                    <li>Participa da pesquisa NPS (se responder)</li>
+                    <li>Começam as ausências, cancelamentos ou pedidos de pausa</li>
+                </ul>
+
+                <div class="alert-box">
+                    <span class="alert-title">Ponto de Atenção:</span>
+                    Quando a pessoa responsável ou o professor não agem rápido, a evasão acontece de forma silenciosa.
+                </div>
+
+                <div class="card">
+                    <span class="highlight-text">Direcionamento Sugerido:</span>
+                    <ul>
+                        <li>Monitorar alunos silenciosos com base nos clusters e criar alertas semanais</li>
+                        <li>Professor deve sinalizar comportamento atípico em aula (ex: câmeras desligadas recorrentes)
+                        </li>
+                        <li>Agendar check-ins rápidos (de 3 a 5 min) com alunos em risco na própria semana</li>
+                    </ul>
+                </div>
+
+                <h3>Fase 4 - Rematrícula</h3>
+                <ul>
+                    <li>Recebe abordagem da equipe comercial ou pedagógica</li>
+                    <li>Se sentiu acompanhada, renova.</li>
+                    <li>Se teve uma jornada confusa ou negligenciada, tende a sair - mesmo que a aula tenha sido boa.
+                    </li>
+                </ul>
+
+                <div class="alert-box">
+                    <span class="alert-title">Ponto de Atenção:</span>
+                    A decisão de ficar ou sair está ligada à percepção de cuidado contínuo, não só à qualidade da aula.
+                </div>
+
+                <div class="card">
+                    <span class="highlight-text">Direcionamento Sugerido:</span>
+                    <ul>
+                        <li>Incluir devolutivas personalizadas sobre a evolução do aluno não somente no contato de
+                            rematrícula, mas durante toda sua jornada</li>
+                        <li>Usar NPS e comentários como base para a abordagem ('Vi que você comentou tal coisa...')</li>
+                        <li>Coordenação pedagógica deve fazer alinhamentos prévios com a pessoa responsável pela
+                            rematrícula antes da campanha</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3: Dados -->
+            <section>
+                <h2>3. O Que os Dados Dizem?</h2>
+                <p>Para entender a real experiência, é essencial monitorar os seguintes dados:</p>
+                <ul>
+                    <li><strong>NPS (Net Promoter Score):</strong> Mede a lealdade e satisfação com o curso (baixo no
+                        meio do curso = sinal de desengajamento)</li>
+                    <li><strong>CSAT (Customer Satisfaction Score):</strong> Aponta a percepção de qualidade em momentos
+                        específicos da jornada com comentários sobre suporte ou comunicação = ponto de alerta para a
+                        coordenação pedagógica</li>
+                    <li><strong>Clusterização de perfis e dores:</strong> Permite agrupar alunos por comportamento e
+                        necessidade</li>
+                    <li><strong>Taxa de comparecimento:</strong> Despenca quando o aluno sente que não é lembrado</li>
+                    <li><strong>Engajamento:</strong> Alunos engajados respondem à pessoa responsável; os em risco
+                        silenciam</li>
+                </ul>
+
+                <div class="alert-box">
+                    <span class="alert-title">Dica Prática:</span>
+                    Use a planilha de clusters e o resumo do NPS/CSAT por turma ou livro para criar planos de ação junto
+                    aos professores.
+                </div>
+
+                <h3>Matriz Estratégica - Indicadores da Jornada Online (CX)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Indicador / Dado</th>
+                            <th>Grau de Importância</th>
+                            <th>Retorno para a Escola (ROI)</th>
+                            <th>Possíveis Retornos (Impactos Positivos)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NPS - Mostra a lealdade e previsão de rematrícula</td>
+                            <td>Altíssimo</td>
+                            <td>Altíssimo</td>
+                            <td>Aumento da rematrícula, defesa da marca, melhoria na reputação, previsibilidade de
+                                receita</td>
+                        </tr>
+                        <tr>
+                            <td>CSAT - Sinaliza satisfação com etapas específicas e qualidade de suporte</td>
+                            <td>Alta</td>
+                            <td>Alto</td>
+                            <td>Redução de reclamações, ajuste de processos de atendimento, mais fluidez na jornada do
+                                aluno</td>
+                        </tr>
+                        <tr>
+                            <td>Clusters de perfis - Agrupam comportamentos e dores para ações personalizadas</td>
+                            <td>Alta</td>
+                            <td>Altíssimo</td>
+                            <td>Ações pedagógicas mais certeiras, aumento de engajamento, melhor uso dos recursos da
+                                equipe</td>
+                        </tr>
+                        <tr>
+                            <td>Comparecimento - Queda revela sentimento de abandono e desengajamento</td>
+                            <td>Altíssimo</td>
+                            <td>Altíssimo</td>
+                            <td>Redução de evasão, maior aproveitamento do curso, previsibilidade de frequência e de
+                                satisfação</td>
+                        </tr>
+                        <tr>
+                            <td>Engajamento - Interação ativa é sinal de conexão com a jornada</td>
+                            <td>Alta</td>
+                            <td>Alto</td>
+                            <td>Diagnóstico precoce de risco de evasão, comunicação mais assertiva, fortalecimento do
+                                vínculo com a escola</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 4: Jornada Ideal -->
+            <section>
+                <h2>4. Jornada Ideal (To-Be) - Como Deveria Ser</h2>
+                <p>Aqui, a gente sonha com o cenário ideal sem complicar demais. São ações simples que fazem diferença
+                    real.</p>
+
+                <div class="grid-2">
+                    <div>
+                        <h3>O Que Pode Ser Melhorado?</h3>
+                        <ul>
+                            <li>Envio automático e claro de orientações após a matrícula</li>
+                            <li>Contato da coordenação pedagógica personalizado já no primeiro dia útil após a matrícula
+                            </li>
+                            <li>Professor atuando como ponto de apoio, não só dando aula</li>
+                            <li>Comunicação padronizada entre professor e coordenação (evita ruído)</li>
+                            <li>Materiais e aulas extras em formatos curtos, acessíveis e visualmente agradáveis</li>
+                            <li>Acompanhamento ativo nos primeiros 30 dias - isso faz o aluno permanecer!</li>
+                        </ul>
+                        <div class="card">
+                            <span class="highlight-text">Direcionamento:</span>
+                            <ul>
+                                <li>Criar um fluxo automático de comunicação com etapas claras</li>
+                                <li>Produzir vídeos curtos (passo a passo)</li>
+                                <li>Rotina de 2 check-ins nos primeiros 30 dias</li>
+                                <li>Padronizar modelo de mensagens</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Onde Encantar Sem Gastar?</h3>
+                        <ul>
+                            <li>Elogios personalizados nas aulas</li>
+                            <li>Mensagens com o nome do aluno, mencionando conquistas</li>
+                            <li>Lembrete de estudo com dica prática</li>
+                            <li>Feedbacks positivos simples via WhatsApp</li>
+                        </ul>
+                        <div class="card">
+                            <span class="highlight-text">Direcionamento:</span>
+                            <ul>
+                                <li>Criar banco de mensagens personalizáveis</li>
+                                <li>Usar comentários do NPS como âncora</li>
+                                <li>Estimular pequenos destaques no final da aula</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5: Monitoramento -->
+            <section>
+                <h2>5. Monitoramento Contínuo</h2>
+                <p>A jornada do aluno online muda o tempo todo. Monitorar de perto evita surpresas na rematrícula.</p>
+
+                <h3>O Que Fazer na Rotina Pedagógica?</h3>
+                <ul>
+                    <li>Revisar a jornada do aluno a cada mês</li>
+                    <li>Analisar NPS e CSAT com foco em palavras-chave e clusters</li>
+                    <li>Acompanhar evolução dos grupos em risco com o professor</li>
+                    <li>Criar mini agendas de ações por tipo de aluno</li>
+                    <li>Compartilhar boas práticas entre coordenação pedagógica e professores</li>
+                </ul>
+
+                <div class="card">
+                    <span class="highlight-text">Direcionamento Sugerido:</span>
+                    <ul>
+                        <li>Criar um painel visual com os clusters e ações sugeridas</li>
+                        <li>Realizar reuniões quinzenais para compartilhar boas práticas</li>
+                        <li>Inserir dados de NPS/CSAT como pauta fixa nas reuniões</li>
+                    </ul>
+                </div>
+
+                <h3>Matriz: Dores, Impactos, Ações e ROI</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dor do Aluno</th>
+                            <th>Impacto na Jornada</th>
+                            <th>Ação Recomendada</th>
+                            <th>ROI Pedagógico/Negócio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Falta de tempo e rotina atribulada</td>
+                            <td>Atrasos, faltas, evasão silenciosa</td>
+                            <td>Aulas objetivas e no horário, lembretes curtos</td>
+                            <td>Alto: + Assiduidade + Retenção</td>
+                        </tr>
+                        <tr>
+                            <td>Comunicação confusa ou genérica</td>
+                            <td>Aluno se sente perdido e desengajado</td>
+                            <td>Vídeos curtos, áudios e videos informais da coordenação</td>
+                            <td>Alto: + Clareza + Engajamento inicial</td>
+                        </tr>
+                        <tr>
+                            <td>Dificuldade em acessar plataformas e informações</td>
+                            <td>Frustração e sensação de descaso</td>
+                            <td>Kit de boas-vindas com todos os links, acessos + tutoriais</td>
+                            <td>Altíssimo: - Reclamações + Satisfação (CSAT)</td>
+                        </tr>
+                        <tr>
+                            <td>Sensação de descaso, falta de acolhimento</td>
+                            <td>Desvinculação emocional com a escola</td>
+                            <td>Check-ins nos primeiros 30 dias + elogios personalizados</td>
+                            <td>Altíssimo: + Vínculo emocional + Rematrícula</td>
+                        </tr>
+                        <tr>
+                            <td>Falta de resposta rápida e objetiva</td>
+                            <td>Gera desmotivação e quebra de confiança</td>
+                            <td>Comunicação prática via WhatsApp + retorno ágil</td>
+                            <td>Alto: + Satisfação + Lealdade (NPS)</td>
+                        </tr>
+                        <tr>
+                            <td>Desconhecimento da função da coordenação</td>
+                            <td>Não sabe a quem recorrer; sente-se só</td>
+                            <td>Explicação clara e visual de papéis (prof. x coordenação)</td>
+                            <td>Médio: + Engajamento - Evasão</td>
+                        </tr>
+                        <tr>
+                            <td>Pouco engajamento com HW e atividades extras</td>
+                            <td>Baixa percepção de evolução</td>
+                            <td>Materiais curtos, visualmente agradáveis e objetivos</td>
+                            <td>Médio: + Valor percebido + NPS</td>
+                        </tr>
+                        <tr>
+                            <td>Respostas lentas ou ausência de follow-up</td>
+                            <td>Abandono por falta de cuidado percebido</td>
+                            <td>Alertas de risco + reuniões rápidas com alunos silenciosos</td>
+                            <td>Altíssimo: + Detecção precoce + Retenção</td>
+                        </tr>
+                        <tr>
+                            <td>Rematrícula baseada só em campanha final</td>
+                            <td>Escolha baseada na última impressão, não na jornada</td>
+                            <td>Devolutivas personalizadas contínuas + preparo da coordenação</td>
+                            <td>Altíssimo: + Conversão em rema + Confiança</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Strategic Actions -->
+            <section>
+                <h2>Top 3 Ações Estratégicas para Foco Prioritário</h2>
+                <div class="card" style="margin-bottom: 20px;">
+                    <h3>1. Contato Personalizado nas Primeiras 24h</h3>
+                    <p><strong>Dores atacadas:</strong> Sentimento de abandono, insegurança, evasão silenciosa</p>
+                    <p><strong>Impacto:</strong> Aumenta o engajamento inicial, reduz a ansiedade e melhora a percepção
+                        de acolhimento</p>
+                    <p><strong>ROI:</strong> Altíssimo - A ação simples e rápida evita evasões precoces e contribui
+                        diretamente para a conversão em rematrícula.</p>
+                </div>
+                <div class="card" style="margin-bottom: 20px;">
+                    <h3>2. Monitoramento de Alunos Silenciosos + Alertas</h3>
+                    <p><strong>Dores atacadas:</strong> Desconexão, evasão sem aviso, queda de presença</p>
+                    <p><strong>Impacto:</strong> Permite intervenção proativa (planos de ações preventivos) antes que o
+                        aluno desista ou suma</p>
+                    <p><strong>ROI:</strong> Altíssimo - Antecipar problemas reduz o retrabalho, aumenta retenção e
+                        fortalece o vínculo.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Fluxo de Comunicação Padronizado</h3>
+                    <p><strong>Dores atacadas:</strong> Falta de tempo, confusão com etapas, frustração com comunicação
+                    </p>
+                    <p><strong>Impacto:</strong> Aumenta a autonomia, reduz dúvidas recorrentes e melhora a fluidez da
+                        experiência</p>
+                    <p><strong>ROI:</strong> Altíssimo - Automatiza o onboarding, reduz sobrecarga da coordenação e
+                        potencializa a satisfação logo de início.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Conclusão</h2>
+                <p>Cada ponto da jornada do aluno online oferece uma oportunidade valiosa de encantamento - e, mais do
+                    que isso, de permanência. Quando mapeamos com cuidado o perfil da nossa persona, entendemos suas
+                    dores, necessidades e expectativas, conseguimos agir de forma preventiva, assertiva e humanizada. Se
+                    colocarmos em prática as ações propostas em cada etapa, o resultado será inevitável: alunos mais
+                    conectados, acolhidos e engajados. Isso se traduz em uma jornada mais fluida, menor evasão e
+                    rematrículas cada vez mais naturais e consistentes.</p>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
